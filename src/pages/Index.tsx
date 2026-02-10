@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SmokeOdorInfo from "@/components/landing/SmokeOdorInfo";
+import SootRemovalInfo from "@/components/landing/SootRemovalInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>smoke odor removal Nashville | Nashville Air Quality Pros: Professional Deodorization Services</title>
-        <meta name="description" content="smoke odor removal Nashville. Professional wood smoke, cigarette, and fire damage odor elimination. 24/7 expert scent neutralize in Nashville. Call (380) 266-0944 today!" />
-        <meta name="keywords" content="smoke odor removal Nashville, cigarette smell removal Nashville, fire damage restoration Nashville, ozone treatment Nashville, Nashville odor elimination" />
-        <link rel="canonical" href="https://nashville-smoke-odor.com/" />
+        <title>soot removal Austin | Austin Soot Masters: Expert Fire Restoration</title>
+        <meta name="description" content="soot removal Austin. Professional soot cleaning, fire damage restoration, and puff-back cleanup. 24/7 expert restoration in Austin. Call (380) 266-0944 today!" />
+        <meta name="keywords" content="soot removal Austin, fire damage restoration Austin, puff back cleanup Austin, smoke damage cleaning Austin, Austin fireplace soot removal" />
+        <link rel="canonical" href="https://austin-soot-removal.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Nashville Air Quality Pros",
+            "name": "Austin Soot Masters",
             "image": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Nashville",
-              "addressRegion": "TN",
-              "postalCode": "37201",
+              "addressLocality": "Austin",
+              "addressRegion": "TX",
+              "postalCode": "78701",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.1627",
-              "longitude": "-86.7816"
+              "latitude": "30.2672",
+              "longitude": "-97.7431"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Nashville, Tennessee"
+              "name": "Austin, Texas"
             },
             "priceRange": "$$$",
-            "description": "Professional smoke odor removal and air quality restoration services in Nashville, TN. We specialize in molecular-level deodorization for homes, music venues, and commercial spaces."
+            "description": "Professional soot removal and fire damage restoration services in Austin, TX. We specialize in scientific soot extraction from walls, ceilings, and ductwork."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Smoke Odor Removal",
+            "serviceType": "Soot Removal Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Nashville Air Quality Pros",
+              "name": "Austin Soot Masters",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Nashville, Tennessee"
+              "name": "Austin, Texas"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Smoke Odor Services",
+              "name": "Soot Removal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Cigarette Smoke Elimination"
+                    "name": "Dry Chemical Sponge Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Fire Damage Deodorization"
+                    "name": "Furnace Puff Back Cleanup"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Hydroxyl & Ozone Treatment"
+                    "name": "Smoke Odor Neutralization"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HVAC System Purification"
+                    "name": "HEPA Air Scrubbing"
                   }
                 }
               ]
@@ -103,10 +103,10 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="smoke odor removal Nashville | Nashville Air Quality Pros" />
-        <meta property="og:description" content="Professional smoke odor removal in Nashville, TN. 24/7 molecular-level air purification and fire damage restoration. Call (380) 266-0944 for a free estimate." />
+        <meta property="og:title" content="soot removal Austin | Austin Soot Masters" />
+        <meta property="og:description" content="Professional soot removal in Austin, TX. 24/7 scientific cleaning and fire damage restoration. Call (380) 266-0944 for a free estimate." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nashville-smoke-odor.com/" />
+        <meta property="og:url" content="https://austin-soot-removal.com/" />
         <meta property="og:image" content="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80" />
       </Helmet>
 
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              smoke odor removal Nashville
-              <span className="block text-blue-400 mt-2">Nashville Air Quality Pros: Breathe Pure Again</span>
+              soot removal Austin
+              <span className="block text-amber-500 mt-2">Austin Soot Masters: Restore Your Space</span>
             </>
           }
-          subtitle="Don't live with the lingering scent of smoke. Our molecular-level purification systems target smoke particles embedded in Nashville's historic hardwood, drywall, and upholstery—eradicating odors from cigarettes, fires, and environmental hazards with invisible Nashville precision."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+          subtitle="Don't let soot settle into your Texas home. Our specialized dry extraction and HEPA filtration systems target microscopic soot particles, restoring walls and ceilings to their original state while neutralizing lingering Austin fire odors."
+          image="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <SmokeOdorInfo />
+        <SootRemovalInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
