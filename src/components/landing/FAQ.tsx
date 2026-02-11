@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Can you save clothes that have visible mold on them?",
-    answer: "In many cases, yes. We use specialized HEPA vacuuming for dry spores combined with textile-safe antimicrobial treatments and professional laundering advice. High-value silks, leathers, and wools often require our boutique decontamination protocols to be fully restored."
+    question: "Is 'soft-washing' the same as pressure washing?",
+    answer: "No. Standard pressure washing uses high force that can crack vinyl siding and force water behind it, leading to hidden mold. Our soft-wash system uses gentle redirection and specialized cleaning agents to kill mold at the source without any risk to your home's structural integrity."
   },
   {
-    question: "Why does mold grow back in the same closet every year?",
-    answer: "This is usually due to a combination of stagnant air and 'thermal bridging'—where the closet wall is colder than the rest of the room. We identify these moisture triggers and provide long-term solutions, such as ventilation improvements or antimicrobial coatings, to stop the cycle."
+    question: "Will the cleaning chemicals hurt my plants or grass?",
+    answer: "Absolutely not. We use biodegradable, plant-safe surfactants. Our Ambler teams also take an extra step to 'pre-saturate' your landscaping with fresh water and rinse thoroughly afterward, ensuring your garden remains lush and healthy."
   },
   {
-    question: "Are your cleaning chemicals safe for my boutique clothing?",
-    answer: "Yes. We prioritize botanical, VOC-free antimicrobials that are hospital-grade but safe for luxury fabrics. Our technicians are trained to treat delicate materials without causing staining or fiber degradation."
+    question: "How long will the results last?",
+    answer: "Typically, a professional soft-wash in Ambler will keep your siding mold-free for 12 to 24 months. We also apply a post-cleanup inhibitor that significantly slows down the return of green algae and mildew compared to standard cleaning."
   },
   {
-    question: "Do I need to empty the entire closet before you arrive?",
-    answer: "For a full remediation, yes. However, we can assist with the inventory and safe removal of items to a filtered containment area to prevent spores from spreading throughout your Ambler home."
+    question: "Can you remove the chalky white stuff on my siding?",
+    answer: "Yes. That white powdery substance is oxidation, which is caused by UV exposure. While a standard wash won't remove it, we offer a specialized 'Oxidation Treatment' that restores the vinyl's original color and luster."
   },
   {
-    question: "How long does a typical closet cleanup take?",
-    answer: "Most closet remediation projects in Ambler are completed in a single day. This includes containment, air scrubbing, structural cleaning, and antimicrobial application. Larger walk-in suites may require a follow-up air quality verification."
+    question: "How long does a full house wash take?",
+    answer: "Most residential house washes in Ambler take between 3 and 5 hours, depending on the house size and the level of organic growth. You don't even need to be home—just ensure all windows are closed and exterior power is protected."
   }
 ];
 
@@ -28,10 +28,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
-              Closet Restoration FAQ
+              Exterior Cleaning FAQ
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed">
-              Expert answers to common questions about small-space mold and garment protection in Ambler.
+              Expert answers to common questions about house washing and vinyl siding care in Montgomery County.
             </p>
           </div>
 
@@ -39,12 +39,12 @@ const FAQ = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-purple-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-purple-500/5 group"
+                className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-emerald-200 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-emerald-500/5 group"
               >
-                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-purple-700 transition-colors flex items-start gap-3">
-                  <span className="text-purple-500">Q:</span> {faq.question}
+                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-emerald-700 transition-colors flex items-start gap-3">
+                  <span className="text-emerald-500">Q:</span> {faq.question}
                 </h3>
-                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-purple-100">
+                <p className="text-slate-600 leading-relaxed font-medium pl-8 border-l-2 border-emerald-100">
                   {faq.answer}
                 </p>
               </div>

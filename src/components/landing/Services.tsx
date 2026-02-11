@@ -1,29 +1,29 @@
-import { Shield, Shirt, Droplets, Wind, Zap, Scissors, Sparkles, Sprout, ClipboardCheck } from "lucide-react";
+import { Shield, Home, Droplets, Wind, Zap, Brush, Sparkles, ClipboardCheck } from "lucide-react";
 
 const services = [
   {
-    icon: Scissors,
-    title: "Fabric Decontamination",
-    description: "Specialized extraction and sanitization for high-end clothing, suits, and silk garments affected by closet spores.",
-    link: "#closet-mold-info"
+    icon: Home,
+    title: "Soft Wash House Washing",
+    description: "Gentle, low-pressure cleaning that removes mold and algae without damaging vinyl siding or window seals.",
+    link: "#siding-mold-info"
   },
   {
-    icon: Wind,
-    title: "Micro-Space Scrubbing",
-    description: "HEPA air filtration specifically configured for small, enclosed spaces like reach-in and walk-in closets.",
-    link: "#closet-mold-info"
+    icon: Zap,
+    title: "Oxidation Removal",
+    description: "Specialized chemical treatment to remove the chalky white 'oxidation' layer that makes vinyl look aged.",
+    link: "#siding-mold-info"
+  },
+  {
+    icon: Brush,
+    title: "Gutter Brightening",
+    description: "Manual detailing of gutter exteriors to remove 'tiger stripes' and restore them to their original color.",
+    link: "#siding-mold-info"
   },
   {
     icon: Sparkles,
-    title: "Eco-Safe Sanitizing",
-    description: "Application of non-toxic, botanical antimicrobials that effectively kill mold without damaging upholstery or fabrics.",
-    link: "#closet-mold-info"
-  },
-  {
-    icon: Sprout,
-    title: "Odor Neutralization",
-    description: "Deep-cleaning protocols to eliminate the persistent musty smells that linger in closet shelving and drywall.",
-    link: "#closet-mold-info"
+    title: "Exterior Sanitization",
+    description: "Post-cleanup inhibitor application that keeps mold and organic growth from returning for up to 12 months.",
+    link: "#siding-mold-info"
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
-            Boutique Closet Health Services
+            Elite Exterior Restoration Services
           </h2>
           <p className="text-xl text-slate-600 font-medium">
-            Closet mold is a threat to your wardrobe and your health. Our Ambler teams provide specialized micro-remediation designed for high-value areas.
+            Your home's siding is its first line of defense. Our Ambler teams provide specialized soft-wash technology to protect and beautify your property.
           </p>
         </div>
 
@@ -44,16 +44,16 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300"
+              className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-emerald-500/10 hover:-translate-y-1 transition-all duration-300"
             >
               <a href={service.link}>
-                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-purple-600 transition-colors">
-                  <service.icon className="w-8 h-8 text-purple-600 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+                  <service.icon className="w-8 h-8 text-emerald-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-purple-700">{service.title}</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-4">{service.description}</p>
-                <div className="flex items-center gap-2 text-purple-600 font-bold text-sm uppercase tracking-wider">
-                  View Service <ClipboardCheck className="w-4 h-4" />
+                <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm uppercase tracking-wider">
+                  Details <ClipboardCheck className="w-4 h-4" />
                 </div>
               </a>
             </div>

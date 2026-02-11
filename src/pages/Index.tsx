@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import ClosetMoldCleanupInfo from "@/components/landing/ClosetMoldCleanupInfo";
+import VinylSidingMoldInfo from "@/components/landing/VinylSidingMoldInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,20 +15,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Closet mold cleanup Ambler</title>
-        <meta name="description" content="Closet mold cleanup Ambler. Professional mold removal for walk-in closets, garment protection, and small-space air scrubbing in Ambler, PA. Call (380) 266-0944!" />
-        <meta name="keywords" content="Closet mold cleanup Ambler, mold removal closets Ambler PA, garment mold remediation Ambler, Montgomery County mold specialists" />
-        <link rel="canonical" href="https://ambler-closet-mold.com/" />
+        <title>Vinyl siding mold cleaning Ambler</title>
+        <meta name="description" content="Vinyl siding mold cleaning Ambler. Professional soft-wash exterior cleaning for homes in Ambler, PA. Safe mold removal, oxidation treatment, and curb appeal restoration. Call (380) 266-0944!" />
+        <meta name="keywords" content="Vinyl siding mold cleaning Ambler, house washing Ambler PA, soft wash siding cleaning Ambler, exterior mold removal Montgomery County" />
+        <link rel="canonical" href="https://ambler-siding-cleaning.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Ambler Closet Mold Cleanup",
-            "image": "https://images.unsplash.com/photo-1595428774223-ef52624120ec?auto=format&fit=crop&q=80",
+            "name": "Ambler Exterior Mold Pros",
+            "image": "https://images.unsplash.com/photo-1518733057164-4579cbda39ef?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
-            "priceRange": "$$$",
+            "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Ambler",
@@ -46,7 +46,7 @@ const Index = () => {
               "@type": "Place",
               "name": "Ambler, Pennsylvania"
             },
-            "description": "Specialized closet mold cleanup and garment decontamination services in Ambler, PA. Expert small-space remediation and humidity control."
+            "description": "Professional vinyl siding cleaning and exterior mold removal in Ambler, PA. Specialized in soft-wash technology for residential house washing."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Closet Mold Cleanup",
+            "serviceType": "Vinyl Siding Mold Cleaning",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Ambler Closet Mold Cleanup",
+              "name": "Ambler Exterior Mold Pros",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Mold Cleaning Services",
+              "name": "Exterior Cleaning Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Small Space Remediation"
+                    "name": "Residential Soft Wash House Washing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Clothing & Fabric Salvage"
+                    "name": "Vinyl Siding Mold Removal"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HEPA Micro-Scrubbing"
+                    "name": "Exterior Oxidation Treatment"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Humidity Source Mapping"
+                    "name": "Gutter & Trim Brightening"
                   }
                 }
               ]
@@ -103,23 +103,23 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Closet mold cleanup Ambler" />
-        <meta property="og:description" content="Professional closet mold removal in Ambler, PA. Protect your garments and air quality with specialized remediation. Call (380) 266-0944." />
+        <meta property="og:title" content="Vinyl siding mold cleaning Ambler" />
+        <meta property="og:description" content="Professional exterior siding cleaning in Ambler, PA. Safe soft-wash mold removal for your home. Call (380) 266-0944 today." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ambler-closet-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1595428774223-ef52624120ec?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://ambler-siding-cleaning.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1518733057164-4579cbda39ef?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
       <main>
         <Hero
-          title="Closet mold cleanup Ambler"
-          subtitle="Is your wardrobe at risk? Our specialized Ambler crews provide precise, HEPA-filtered cleanup for mold-infested closets and walk-in suites. We sanitize your space and help salvage your high-end garments with clinical precision. Ambler Closet Mold Cleanup: Expert Small Space Care."
-          image="https://images.unsplash.com/photo-1558997519-83ec79029436?auto=format&fit=crop&q=80"
+          title="Vinyl siding mold cleaning Ambler"
+          subtitle="Is green mold or black algae ruining your Ambler home's curb appeal? Our specialized soft-wash technicians provide deep-cleaning for vinyl siding and home exteriors without the damage of high pressure. Ambler Exterior Mold Pros: Restoration Excellence."
+          image="https://images.unsplash.com/photo-1516515429572-10920000305a?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <ClosetMoldCleanupInfo />
+        <VinylSidingMoldInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
