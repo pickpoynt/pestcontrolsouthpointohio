@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WindowMoldInfo from "@/components/landing/WindowMoldInfo";
+import MustyOdorRemovalInfo from "@/components/landing/MustyOdorRemovalInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>black mold on window sills Duvall | Duvall Window Mold Pros</title>
-        <meta name="description" content="black mold on window sills Duvall. Professional remediation for window condensation mold, toxic black mold removal, and sill preservation in King County. Call (380) 266-0944!" />
-        <meta name="keywords" content="black mold on window sills Duvall, window mold removal Duvall WA, Stachybotrys remediation King County, window condensation specialists" />
-        <link rel="canonical" href="https://duvall-window-mold.com/" />
+        <title>musty odor removal pitman nj | Pitman Odor Neutralization Pros</title>
+        <meta name="description" content="musty odor removal pitman nj. Professional molecular neutralization for old house smells, damp basements, and crawlspace odors in Pitman, NJ. Call (380) 266-0944!" />
+        <meta name="keywords" content="musty odor removal pitman nj, old house smell solution Pitman, basement odor Gloucester County, dampness remediation NJ" />
+        <link rel="canonical" href="https://pitman-odor-neutralization.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Duvall Window Mold Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Pitman Odor Neutralization Pros",
+            "image": "https://images.unsplash.com/photo-1490312278390-ab6414f8d29b?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Duvall",
-              "addressRegion": "WA",
-              "postalCode": "98019",
+              "addressLocality": "Pitman",
+              "addressRegion": "NJ",
+              "postalCode": "08071",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "47.7423",
-              "longitude": "-121.9857"
+              "latitude": "39.7332",
+              "longitude": "-75.1313"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Duvall, Washington"
+              "name": "Pitman, Gloucester County, NJ"
             },
-            "priceRange": "$$$",
-            "description": "Specialized window mold remediation and moisture control in Duvall, WA. We eliminate black mold from window sills and address root condensation causes."
+            "priceRange": "$$",
+            "description": "Scientific odor neutralization and air purification in Pitman, NJ. We eliminate musty smells from historic homes and damp basements permanently using molecular science."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Window Mold Remediation Services",
+            "serviceType": "Musty Odor Removal Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Duvall Window Mold Pros",
+              "name": "Pitman Odor Neutralization Pros",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Duvall, Washington"
+              "name": "Pitman, NJ"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Window Recovery Services",
+              "name": "Atmosphere Restoration Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Black Mold Sill Remediation"
+                    "name": "Molecular Odor Neutralization"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Frame Moisture Barriers"
+                    "name": "HEPA Air Scrubbing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Condensation Control Retrofitting"
+                    "name": "Crawlspace Vapor Control"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Stachybotrys Spore Containment"
+                    "name": "Historic Home Smell Removal"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="black mold on window sills Duvall | Window Mold Pros" />
-        <meta property="og:description" content="Professional black mold remediation for window sills in Duvall, WA. Stop condensation damage and protect your family's health." />
+        <meta property="og:title" content="musty odor removal pitman nj | Odor Neutralization Pros" />
+        <meta property="og:description" content="Professional musty odor removal for historic homes and basements in Pitman, NJ. Science-based molecular neutralization." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://duvall-window-mold.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://pitman-odor-neutralization.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1490312278390-ab6414f8d29b?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              black mold on window sills Duvall
-              <span className="block text-emerald-400 mt-2">Duvall Window Mold Pros: Condensation Specialists</span>
+              musty odor removal pitman nj
+              <span className="block text-indigo-400 mt-2">Pitman Odor Neutralization Pros: Scientific Removal</span>
             </>
           }
-          subtitle="Don't let seasonal window condensation rot your window frames and poison your indoor air. Our PNW-certified remediation protocols target toxic black mold at the source—ensuring a dry, fungal-free home in any weather."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+          subtitle="Is a persistent musty smell making your historic Pitman home unbearable? We use advanced molecular neutralization and HEPA air scrubbing to eliminate odors at the source—not just mask them. Restore your home's air today."
+          image="https://images.unsplash.com/photo-1490312278390-ab6414f8d29b?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <WindowMoldInfo />
+        <MustyOdorRemovalInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

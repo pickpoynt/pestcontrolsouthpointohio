@@ -1,93 +1,90 @@
-import { Shield, Wind, Zap, FlaskConical, Sun, Thermometer, Search, Droplets } from "lucide-react";
+import { Shield, Droplets, Wind, CheckCircle2, AlertTriangle, ThermometerSnowflake, Microscope } from "lucide-react";
 
 const MustyOdorRemovalInfo = () => {
     return (
-        <section id="musty-odor-info" className="py-24 bg-gradient-to-br from-slate-50 via-indigo-50 to-slate-100">
+        <section id="musty-odor-info" className="py-24 bg-white overflow-hidden">
             <div className="container mx-auto px-4">
-                <div className="max-w-6xl mx-auto">
-                    <div className="text-center mb-16">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm">
-                            <Wind className="w-4 h-4" />
-                            Molecular Air Purification
-                        </div>
-                        <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight">
-                            Musty odor removal Pitman nj: Deep Air Decontamination
-                        </h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed font-medium">
-                            Persistent musty smells in Pitman's historic homes are often the result of active Microbial Volatile Organic Compounds (mVOCs). We don't just mask odors with perfumes; we utilize molecular-level neutralization to eliminate the source forever.
-                        </p>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div className="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-indigo-900/5 border border-slate-100 hover:-translate-y-2 transition-all duration-300">
-                            <div className="w-16 h-16 rounded-2xl bg-indigo-600 flex items-center justify-center mb-8 shadow-lg shadow-indigo-200">
-                                <Zap className="w-8 h-8 text-white" />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Hydroxyl Generation</h3>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                We utilize NASA-developed hydroxyl technology to break down odor-causing molecules in the air and on surfaces without the use of harsh chemicals.
-                            </p>
-                        </div>
-
-                        <div className="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-indigo-900/5 border border-slate-100 hover:-translate-y-2 transition-all duration-300">
-                            <div className="w-16 h-16 rounded-2xl bg-indigo-600 flex items-center justify-center mb-8 shadow-lg shadow-indigo-200">
-                                <FlaskConical className="w-8 h-8 text-white" />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Enzymatic Bio-Neutralization</h3>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                For odors trapped in subfloors or behind walls, we apply proprietary bio-enzymes that digest organic odor sources at the cellular level.
-                            </p>
-                        </div>
-
-                        <div className="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-indigo-900/5 border border-slate-100 hover:-translate-y-2 transition-all duration-300">
-                            <div className="w-16 h-16 rounded-2xl bg-indigo-600 flex items-center justify-center mb-8 shadow-lg shadow-indigo-200">
-                                <Sun className="w-8 h-8 text-white" />
-                            </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">HEPA Air Scrubbing</h3>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                Our industrial air scrubbers cycle the indoor air 4-6 times per hour, removing 99.97% of the particulates that carry musty odors.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="mt-20 bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl relative">
-                        <div className="absolute inset-0 opacity-20">
+                <div className="flex flex-col lg:flex-row items-center gap-16">
+                    <div className="lg:w-1/2 relative">
+                        <div className="absolute -top-10 -left-10 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-60" />
+                        <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                             <img
-                                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80"
-                                alt="Clear Air Environment"
-                                className="w-full h-full object-cover"
+                                src="https://images.unsplash.com/photo-1490312278390-ab6414f8d29b?auto=format&fit=crop&q=80"
+                                alt="musty odor removal pitman nj"
+                                className="w-full h-auto"
                             />
-                        </div>
-                        <div className="relative z-10 p-12 md:p-20 grid lg:grid-cols-2 gap-12 items-center">
-                            <div>
-                                <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Pitman's Vapor Intrusion Pros</h3>
-                                <p className="text-indigo-100 text-lg leading-relaxed mb-8 opacity-90 font-medium">
-                                    Many Pitman homes sit on high-moisture soil, leading to vapor intrusion—the primary cause of the 'old house smell.' We provide the scientific diagnostics needed to stop the vapor and refresh your indoor air quality permanently.
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
+                            <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-2xl">
+                                <div className="flex items-center gap-3 mb-2 text-indigo-600">
+                                    <Wind className="w-5 h-5" />
+                                    <span className="font-bold uppercase tracking-wider text-sm">Molecular Neutralization</span>
+                                </div>
+                                <p className="text-slate-800 font-medium">
+                                    Historic Pitman homes often trap decades of moisture. We reset your indoor atmosphere to zero.
                                 </p>
-                                <div className="space-y-4">
-                                    <div className="flex items-center gap-3 text-white font-bold text-lg">
-                                        <Search className="text-indigo-400 w-6 h-6" />
-                                        Thermal Source Identification
+                            </div>
+                        </div>
+                        <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-xl rotate-12">
+                            <Shield className="w-16 h-16 text-white" />
+                        </div>
+                    </div>
+
+                    <div className="lg:w-1/2">
+                        <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 leading-tight">
+                            Science-Backed <span className="text-indigo-600 uppercase">Odor Elimination</span> for Gloucester County
+                        </h2>
+
+                        <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+                            In Pitman, NJ, the combination of historic architecture and high humidity leads to persistent "old house" smells. These odors aren't just annoying; they are often caused by <strong className="text-slate-900 uppercase">mVOCs</strong> (microbial Volatile Organic Compounds) that indicate active biological growth in basements and crawlspaces.
+                        </p>
+
+                        <div className="space-y-6">
+                            {[
+                                {
+                                    icon: Wind,
+                                    title: "Atmospheric Purification",
+                                    desc: "We use industrial-grade hydroxyl generators that mimic nature's way of cleaning the air, destroying odor molecules on contact."
+                                },
+                                {
+                                    icon: Microscope,
+                                    title: "Source Mapping",
+                                    desc: "We don't just spray scents. We use thermal imaging and moisture diagnostics to find the hidden vapor intrusion points in your Pitman home."
+                                },
+                                {
+                                    icon: CheckCircle2,
+                                    title: "HEPA Filtration Reset",
+                                    desc: "Our high-volume air scrubbers pull localized spores and particulates out of your air, ensuring a complete environmental reset."
+                                }
+                            ].map((item, idx) => (
+                                <div key={idx} className="flex gap-4 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition-colors group">
+                                    <div className="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center shrink-0 group-hover:bg-indigo-600 transition-colors">
+                                        <item.icon className="w-6 h-6 text-indigo-600 group-hover:text-white" />
                                     </div>
-                                    <div className="flex items-center gap-3 text-white font-bold text-lg">
-                                        <Search className="text-indigo-400 w-6 h-6" />
-                                        Advanced Ozone Treatment
-                                    </div>
-                                    <div className="flex items-center gap-3 text-white font-bold text-lg">
-                                        <Search className="text-indigo-400 w-6 h-6" />
-                                        Humidity Control Integration
+                                    <div>
+                                        <h3 className="font-bold text-slate-900 mb-1">{item.title}</h3>
+                                        <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20">
-                                <h4 className="text-2xl font-bold text-white mb-4">Why That Smell Lingers</h4>
-                                <ul className="text-indigo-50 space-y-4 font-medium opacity-80">
-                                    <li>• Hidden moisture in crawlspaces or basements</li>
-                                    <li>• Active mold spores releasing mVOC gases</li>
-                                    <li>• Stagnant air in closets and unvented areas</li>
-                                    <li>• Porous materials (drywall, wood) absorbing odors</li>
-                                    <li>• Improper grading pushing moisture under the home</li>
-                                </ul>
+                            ))}
+                        </div>
+
+                        <div className="mt-10 flex flex-col sm:flex-row items-center gap-6">
+                            <a
+                                href="tel:3802660944"
+                                className="w-full sm:w-auto px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-slate-800 transition-all shadow-xl"
+                            >
+                                <Phone className="w-5 h-5 text-indigo-400" />
+                                (380) 266-0944
+                            </a>
+                            <div className="flex -space-x-3">
+                                {[1, 2, 3, 4].map((i) => (
+                                    <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-indigo-100 flex items-center justify-center text-[10px] font-bold text-indigo-700">
+                                        NJ
+                                    </div>
+                                ))}
+                                <div className="pl-4 text-sm font-bold text-slate-500 italic">
+                                    Serving Gloucester County since 2012
+                                </div>
                             </div>
                         </div>
                     </div>
