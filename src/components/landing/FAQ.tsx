@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "What actually causes that 'musty' smell in historic Pitman homes?",
-    answer: "The smell is caused by mVOCs (Microbial Volatile Organic Compounds)—gases emitted by dormant or active microbial growth in damp areas like basements and crawlspaces. In Pitman, high humidity and older construction often trap these gases, requiring molecular neutralization rather than just ventilation."
+    question: "Why does my Montvale closet smell musty even if there's no visible mold?",
+    answer: "The smell is caused by mVOCs (Microbial Volatile Organic Compounds)—gases emitted by microscopic microbial activity in damp, enclosed spaces. Closets often lack proper airflow, allowing these gases to saturate drywall, wood, and fabrics, creating a persistent odor even without visible colonies."
   },
   {
-    question: "Is the MUSTY ODOR REMOVAL PITMAN NJ process safe for pets?",
-    answer: "Yes. We use advanced hydroxyl technology and HEPA air scrubbing, which are 100% non-toxic and ozone-free. Unlike older ozone treatments, your family and pets can remain in the home during the neutralization process."
+    question: "Is the closet odor neutralization process safe for my luxury clothes?",
+    answer: "Absolutely. We use professional-grade hydroxyl generators and localized HEPA air scrubbing. This process is 100% non-toxic, ozone-free, and safe for all fabrics, including silk, wool, and leather. It leaves no chemical residue or lingering scent."
   },
   {
-    question: "How long does a typical odor neutralization take?",
-    answer: "Most Pitman residential properties can be fully reset within 24 to 48 hours. This includes source identification, atmospheric scrubbing, and molecular neutralization. More severe crawlspace issues may require an additional day for vapor barrier installation."
+    question: "How long does it take to remove the smell from a walk-in closet?",
+    answer: "Most Montvale residential closets can be fully neutralized within 24 hours. This includes our multi-step protocol: source identification, atmospheric reset, and precision air scrubbing. You can typically use the space immediately after treatment."
   },
   {
-    question: "Can't I just use candles or air fresheners?",
-    answer: "Candles and sprays only 'mask' the smell by overwhelming your olfactory receptors. They do nothing to remove the toxic compounds from the air. Our process chemically destroys the odor molecules, ensuring the smell doesn't return once the scent wears off."
+    question: "Can't I just use moisture absorbers or cedar blocks?",
+    answer: "Moisture absorbers can help prevent *new* smells, but they cannot remove the gas molecules already trapped in your closet's materials. Cedar only masks the odor. Our technology chemically dismantles the odor-causing compounds at the molecular level, ensuring the musty smell is actually gone."
   },
   {
-    question: "Why does the smell get worse in the summer?",
-    answer: "Humidity is the fuel for microbial activity. Higher summer temperatures in Gloucester County increase the off-gassing of hidden colonies, making the musty odor much more noticeable. We solve this by addressing the vapor intrusion points."
+    question: "Does the service cover closets on any floor of the house?",
+    answer: "Yes. Whether it's a primary suite walk-in, a basement storage closet, or a hallway wardrobe, our Montvale team has portable, high-efficiency equipment designed for any room in your home."
   }
 ];
 
@@ -28,10 +28,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Neutralization & <span className="text-indigo-600">Odor FAQ</span>
+              Closet <span className="text-indigo-600">Odor FAQ</span>
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
-              Expert answers to common questions about MUSTY ODOR REMOVAL PITMAN NJ and historic home air quality restoration in Gloucester County.
+              Expert answers to common questions about musty closet smells and air quality restoration in Montvale and Bergen County.
             </p>
           </div>
 

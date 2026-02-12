@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Wind className="w-4 h-4" />
-                PITMAN ODOR NEUTRALIZATION PROS
+                MONTVALE CLOSET ODOR PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Request a <span className="text-indigo-600">Molecular</span> Air Analysis
+                Request a <span className="text-indigo-600">Molecular</span> Closet Analysis
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                A musty smell is a chemical signal of latent biological activity. Our Pitman diagnostic teams provide industrial-grade MUSTY ODOR REMOVAL PITMAN NJ and permanent environmental resets.
+                Invisible closet odors are often the toughest to solve. Our Montvale diagnostic teams provide pharmaceutical-grade air science for permanent environmental resets.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">PITMAN ODOR HOTLINE</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MONTVALE ODOR HOTLINE</p>
                     <a href="tel:3802660944" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
                       (380) 266-0944
                     </a>
@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Atmosphere Reset</p>
-                    <p className="text-xl font-bold text-slate-900">Hospital-Grade Neutralization</p>
+                    <p className="text-xl font-bold text-slate-900">Hospital-Grade Deodorization</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Pitman & Gloucester County, NJ</p>
+                    <p className="text-xl font-bold text-slate-900">Montvale & Bergen County, NJ</p>
                   </div>
                 </div>
               </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Smell Location</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                    <option>Damp Basement</option>
-                    <option>Historic Home Crawlspace</option>
-                    <option>Second Floor / Attic Smells</option>
-                    <option>HVAC / Duct System Odors</option>
-                    <option>Whole-Home Neutralization</option>
+                    <option>Walk-In Closet</option>
+                    <option>Bedroom Wardrobe</option>
+                    <option>Basement Storage Closet</option>
+                    <option>Hallway Linen Closet</option>
+                    <option>Trophy / Display Closet</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -90,11 +90,11 @@ const Contact = () => {
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                    placeholder="Describe the smell (e.g., wet socks, rotten wood) and where it's strongest..."
+                    placeholder="Describe the smell (e.g., musty clothes, wet laundry) and where it's strongest..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest">
-                  Request Atmosphere Reset
+                  Request Closet Reset
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
                   *Scientific molecular neutralization and 100% ozone-free

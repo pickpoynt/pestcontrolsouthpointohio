@@ -33,15 +33,40 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Molecular <span className="text-indigo-600">Odor Science</span>
+            Molecular <span className="text-indigo-600">Closet Reset</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Pitman's historic properties deserve a structural reset. Our MUSTY ODOR REMOVAL PITMAN NJ protocols go beyond cleaning—we chemically neutralize bacteria at the source.
+            Montvale's premium homes shouldn't be defined by a hidden musty smell. Our specialized protocols eliminate closet odors even when no mold is visible.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
-          {services.map((service, index) => (
+          {[
+            {
+              icon: Wind,
+              title: "Odor Neutralization",
+              description: "Advanced molecular scrubbing targets the mVOC gases that cling to fabrics and wood in enclosed closets.",
+              link: "#musty-odor-info"
+            },
+            {
+              icon: Microscope,
+              title: "Precision Mapping",
+              description: "Finding the hidden humidity pockets in Montvale closets that produce musty smells without visible mold growth.",
+              link: "#musty-odor-info"
+            },
+            {
+              icon: Gauge,
+              title: "Humidity Control",
+              description: "Engineering solutions to permanent moisture issues in walk-in wardrobes and storage spaces.",
+              link: "#musty-odor-info"
+            },
+            {
+              icon: Shield,
+              title: "Fabric Protection",
+              description: "Safe, non-toxic atmospheric reset that eliminates smells from your entire wardrobe without chemical residues.",
+              link: "#musty-odor-info"
+            }
+          ].map((service, index) => (
             <div
               key={index}
               className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300"
