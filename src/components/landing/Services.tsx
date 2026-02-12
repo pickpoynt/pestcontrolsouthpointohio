@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Molecular <span className="text-indigo-600">Closet Reset</span>
+            Foundation <span className="text-indigo-600">Restoration Science</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Montvale's premium homes shouldn't be defined by a hidden musty smell. Our specialized protocols eliminate closet odors even when no mold is visible.
+            Montvale foundations require specialized moisture management. We don't just clear white mold; we engineer environments where it cannot return.
           </p>
         </div>
 
@@ -44,26 +44,26 @@ const Services = () => {
           {[
             {
               icon: Wind,
-              title: "Odor Neutralization",
-              description: "Advanced molecular scrubbing targets the mVOC gases that cling to fabrics and wood in enclosed closets.",
+              title: "White Mold Removal",
+              description: "Surgical extraction of powdery white mold (and efflorescence identification) from structural crawl space elements.",
               link: "#musty-odor-info"
             },
             {
               icon: Microscope,
-              title: "Precision Mapping",
-              description: "Finding the hidden humidity pockets in Montvale closets that produce musty smells without visible mold growth.",
+              title: "Slab Decontamination",
+              description: "Chemical neutralization of mold spores embedded in concrete floors and masonry foundation walls in Montvale homes.",
               link: "#musty-odor-info"
             },
             {
               icon: Gauge,
-              title: "Humidity Control",
-              description: "Engineering solutions to permanent moisture issues in walk-in wardrobes and storage spaces.",
+              title: "Vapor Barrier Pro",
+              description: "Installation of 20-mil high-durability vapor barriers to isolate your crawl space floor from groundwater moisture.",
               link: "#musty-odor-info"
             },
             {
               icon: Shield,
-              title: "Fabric Protection",
-              description: "Safe, non-toxic atmospheric reset that eliminates smells from your entire wardrobe without chemical residues.",
+              title: "Structural Dry-Out",
+              description: "Industrial-grade dehumidification and HEPA air scrubbing to reset your home's foundation to safe, dry levels.",
               link: "#musty-odor-info"
             }
           ].map((service, index) => (
@@ -78,7 +78,7 @@ const Services = () => {
                 <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-4">{service.description}</p>
                 <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider">
-                  View Science <ClipboardCheck className="w-4 h-4" />
+                  View Protocol <ClipboardCheck className="w-4 h-4" />
                 </div>
               </a>
             </div>

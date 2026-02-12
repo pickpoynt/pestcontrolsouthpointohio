@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Why does my Montvale closet smell musty even if there's no visible mold?",
-    answer: "The smell is caused by mVOCs (Microbial Volatile Organic Compounds)—gases emitted by microscopic microbial activity in damp, enclosed spaces. Closets often lack proper airflow, allowing these gases to saturate drywall, wood, and fabrics, creating a persistent odor even without visible colonies."
+    question: "Is the white powder on my crawl space floor mold or efflorescence?",
+    answer: "In Montvale, white powder on foundation floors can be either. Efflorescence is a salt deposit from evaporating water, while white mold is a biological growth. We use specialized testing and visual diagnostics to distinguish them—mold requires professional extraction, while efflorescence requires structural waterproofing."
   },
   {
-    question: "Is the closet odor neutralization process safe for my luxury clothes?",
-    answer: "Absolutely. We use professional-grade hydroxyl generators and localized HEPA air scrubbing. This process is 100% non-toxic, ozone-free, and safe for all fabrics, including silk, wool, and leather. It leaves no chemical residue or lingering scent."
+    question: "Does white mold in the crawl space affect the air inside my home?",
+    answer: "Yes. Due to the 'stack effect,' air from your crawl space naturally rises into your living areas. If white mold spores are present on the floor or structural beams, they can be pulled upwards, potentially affecting indoor air quality and triggering allergies in your household."
   },
   {
-    question: "How long does it take to remove the smell from a walk-in closet?",
-    answer: "Most Montvale residential closets can be fully neutralized within 24 hours. This includes our multi-step protocol: source identification, atmospheric reset, and precision air scrubbing. You can typically use the space immediately after treatment."
+    question: "How do you remove white mold from a dirt crawl space floor?",
+    answer: "For dirt floors, we remove the top layer of contaminated soil and apply an EPA-approved antimicrobial treatment. We then install a high-performance 20-mil vapor barrier to permanently seal the floor and prevent moisture from fueling future mold growth."
   },
   {
-    question: "Can't I just use moisture absorbers or cedar blocks?",
-    answer: "Moisture absorbers can help prevent *new* smells, but they cannot remove the gas molecules already trapped in your closet's materials. Cedar only masks the odor. Our technology chemically dismantles the odor-causing compounds at the molecular level, ensuring the musty smell is actually gone."
+    question: "Is your crawl space mold treatment safe for my family?",
+    answer: "Absolutely. We use hospital-grade, non-toxic antimicrobial solutions. During the remediation process, we maintain negative air pressure with HEPA air scrubbers to ensure no dust or spores escape from the crawl space into your Montvale home."
   },
   {
-    question: "Does the service cover closets on any floor of the house?",
-    answer: "Yes. Whether it's a primary suite walk-in, a basement storage closet, or a hallway wardrobe, our Montvale team has portable, high-efficiency equipment designed for any room in your home."
+    question: "How long does the crawl space remediation process take?",
+    answer: "Most Montvale residential crawl space projects are completed within 2 to 3 days. This includes debris removal, mold extraction, antimicrobial treatment, and the installation of a professional-grade encapsulation system."
   }
 ];
 
@@ -28,10 +28,10 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-              Closet <span className="text-indigo-600">Odor FAQ</span>
+              Remediation <span className="text-indigo-600">Science FAQ</span>
             </h2>
             <p className="text-xl text-slate-600 font-medium leading-relaxed italic">
-              Expert answers to common questions about musty closet smells and air quality restoration in Montvale and Bergen County.
+              Expert answers to common questions about white mold on crawl space floors and foundation air quality in Montvale and Bergen County.
             </p>
           </div>
 

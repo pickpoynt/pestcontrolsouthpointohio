@@ -31,10 +31,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 px-4">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Montvale Homeowners Choose Our <span className="text-indigo-400">Atmospheric Reset</span>
+            Why Montvale Homeowners Choose Our <span className="text-indigo-400">Foundation Reset</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Invisible odors are often the most difficult to eliminate. Our Bergen County specialists use pharmaceutical-grade air science to refresh closet spaces permanently.
+            White mold on your crawl space floor is a sign of foundation-level environmental failure. Our Bergen County specialists restore structural health and air purity.
           </p>
         </div>
 
@@ -42,23 +42,23 @@ const WhyUs = () => {
           {[
             {
               icon: Wind,
-              title: "Molecular Removal",
-              description: "We destroy the chemical signatures of musty smells rather than covering them up with fragrances."
+              title: "Scientific Extraction",
+              description: "We don't just 'wipe' mold—we use surgical negative-air containment to prevent spores from entering your Montvale home."
             },
             {
               icon: Search,
-              title: "Hidden Humidity Scans",
-              description: "Detecting the micro-level moisture in Montvale closet walls that feeds invisible odor-causing bacteria."
+              title: "Intrusion Diagnostics",
+              description: "Detecting the exact groundwater entry points that cause white mold on concrete slabs and dirt floors."
             },
             {
               icon: ShieldCheck,
-              title: "100% Wardrobe Safe",
-              description: "Our processes are entirely safe for high-end clothing, leaving no scent, residue, or harmful byproducts."
+              title: "Structural Safety",
+              description: "Our antimicrobial treatments are EPA-certified and 100% safe for household residents and pets once applied."
             },
             {
               icon: Activity,
-              title: "Air Freshness Audits",
-              description: "Verification of zero mVOC levels after treatment ensuring your 'musty closet' problem is solved for good."
+              title: "Humidity Audits",
+              description: "Digital verification of crawl space moisture levels ensuring your white mold problem is solved for the long term."
             }
           ].map((feature, index) => (
             <div
@@ -78,9 +78,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">Lingering Closet Smells?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">White Spotting on Floor?</h3>
             <p className="text-indigo-50 text-lg font-medium opacity-90">
-              Our Montvale diagnostic teams can perform a full environmental assessment and niche neutralization within 24 hours.
+              Our Montvale diagnostic teams can identify if it's white mold or efflorescence and provide a full removal plan within 24 hours.
             </p>
           </div>
           <a

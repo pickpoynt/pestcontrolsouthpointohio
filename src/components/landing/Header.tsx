@@ -40,7 +40,7 @@ const Header = () => {
                 MONTVALE
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                CLOSET <span className="text-[10px] opacity-70">ODOR PROS</span>
+                CRAWL <span className="text-[10px] opacity-70">SPACE PROS</span>
               </span>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Header = () => {
           {/* Contact Actions */}
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">MONTVALE ODOR HOTLINE</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">MONTVALE CRAWL HOTLINE</span>
               <a href="tel:3802660944" className="text-xl font-bold hover:text-indigo-500 transition-colors tracking-tighter">
                 (380) 266-0944
               </a>
@@ -101,7 +101,7 @@ const Header = () => {
               </a>
             ))}
             <div className="pt-6 border-t border-slate-800">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">MONTVALE ODOR HOTLINE</p>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">MONTVALE CRAWL HOTLINE</p>
               <a href="tel:3802660944" className="text-2xl font-bold text-indigo-500">
                 (380) 266-0944
               </a>

@@ -25,7 +25,7 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <span className="text-slate-400 font-bold text-[10px] lg:mr-4 uppercase tracking-[0.3em] text-center w-full lg:w-auto mb-4 lg:mb-0">
-            MONTVALE ODOR RESET PARTNERS
+            MONTVALE CRAWL SPACE PARTNERS
           </span>
 
           {links.map((link, index) => (

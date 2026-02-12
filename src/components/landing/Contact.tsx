@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Wind className="w-4 h-4" />
-                MONTVALE CLOSET ODOR PROS
+                MONTVALE CRAWL SPACE PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Request a <span className="text-indigo-600">Molecular</span> Closet Analysis
+                Request a <span className="text-indigo-600">Foundation</span> Mold Analysis
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Invisible closet odors are often the toughest to solve. Our Montvale diagnostic teams provide pharmaceutical-grade air science for permanent environmental resets.
+                White mold on the floor is often just the tip of the iceberg. Our Montvale diagnostic teams provide structural-grade remediation and permanent vapor barrier resets.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MONTVALE ODOR HOTLINE</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">MONTVALE CRAWL HOTLINE</p>
                     <a href="tel:3802660944" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
                       (380) 266-0944
                     </a>
@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Atmosphere Reset</p>
-                    <p className="text-xl font-bold text-slate-900">Hospital-Grade Deodorization</p>
+                    <p className="text-xl font-bold text-slate-900">Hospital-Grade Decontamination</p>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
 
             <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Air Analysis</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Foundation Analysis</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -76,28 +76,28 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Smell Location</label>
+                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Problem Area</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                    <option>Walk-In Closet</option>
-                    <option>Bedroom Wardrobe</option>
-                    <option>Basement Storage Closet</option>
-                    <option>Hallway Linen Closet</option>
-                    <option>Trophy / Display Closet</option>
+                    <option>White Mold on Dirt Floor</option>
+                    <option>White Powder on Concrete Slab</option>
+                    <option>Visible Mold on Joists</option>
+                    <option>Crawl Space Water Intrusion</option>
+                    <option>Full Foundation Encapsulation</option>
                   </select>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Odor Details</label>
+                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Specific Details</label>
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                    placeholder="Describe the smell (e.g., musty clothes, wet laundry) and where it's strongest..."
+                    placeholder="Describe what you see (e.g., white fuzz, powdery spots) and where it is strongest..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest">
-                  Request Closet Reset
+                  Request Foundation Reset
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *Scientific molecular neutralization and 100% ozone-free
+                  *Scientific white mold remediation and structural waterproofing
                 </p>
               </form>
             </div>
