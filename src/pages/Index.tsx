@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import AlondraParkHydroJettingInfo from "@/components/landing/AlondraParkHydroJettingInfo";
+import AlondraParkSlabLeakInfo from "@/components/landing/AlondraParkSlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,18 +15,18 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Hydro jetting sewer line Alondra Park Alondra Park</title>
-        <meta name="description" content="Hydro jetting sewer line Alondra Park Alondra Park. Expert high-pressure hydro jetting for residential and commercial sewer lines in Alondra Park, CA. 24/7 blockage clearance and precision diagnostics. Call (877) 792-1410!" />
-        <meta name="keywords" content="Hydro jetting sewer line Alondra Park, Alondra Park hydro jetting, sewer line cleaning Alondra Park, blocked drain Alondra Park, hydrojet sewer cleaning" />
-        <link rel="canonical" href="https://alondra-park-jetting-pros.com/" />
+        <title>Slab leak detection experts Alondra Park Alondra Park</title>
+        <meta name="description" content="Slab leak detection experts Alondra Park Alondra Park. Expert electronic slab leak detection and foundation leak repair in Alondra Park, CA. 24/7 non-invasive thermal and acoustic diagnostics. Call (877) 792-1410!" />
+        <meta name="keywords" content="Slab leak detection experts Alondra Park, Alondra Park slab leak detection, foundation leak repair Alondra Park, under slab leak detection Alondra Park, electronic leak detection" />
+        <link rel="canonical" href="https://alondra-park-slab-leak-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Alondra Park Hydro Jetting Pros",
-            "image": "https://images.unsplash.com/photo-1558227691-41ea78d1f631?auto=format&fit=crop&q=80",
+            "name": "Alondra Park Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -45,8 +45,8 @@ const Index = () => {
               "@type": "Place",
               "name": "Alondra Park, CA"
             },
-            "priceRange": "$$",
-            "description": "Professional high-pressure hydro jetting services in Alondra Park, CA. We specialize in total blockage clearance, root removal, and precision sewer line decontamination."
+            "priceRange": "$$$",
+            "description": "Professional electronic slab leak detection and foundation diagnostic services in Alondra Park, CA. We utilize acoustic and thermal technology to locate hidden leaks without destruction."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hydro Jetting Sewer Line Services",
+            "serviceType": "Slab Leak Detection & Diagnostic Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Alondra Park Hydro Jetting Pros",
+              "name": "Alondra Park Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Drain & Sewer Cleaning Services",
+              "name": "Leak Detection Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Pressure Sewer De-scaling"
+                    "name": "Electronic Acoustic Leak Pinpointing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Invasive Root Pulverization"
+                    "name": "Infrared Thermal Imaging Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Grease & Sludge Emulsification"
+                    "name": "Tracer Gas Foundation Leak Location"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Full CCTV Pipe Restoration Verification"
+                    "name": "Non-Invasive Foundation Diagnostics"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Hydro jetting sewer line Alondra Park - Professional Drain Clearance" />
-        <meta property="og:description" content="Expert hydro jetting in Alondra Park. Scour your sewer lines clean with 4000 PSI precision technology. Fast response for South Bay property owners." />
+        <meta property="og:title" content="Slab leak detection experts Alondra Park - Precision Foundation Diagnostics" />
+        <meta property="og:description" content="Expert slab leak detection in Alondra Park. Locate hidden foundation leaks with thermal and acoustic precision. Protect your South Bay property." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://alondra-park-jetting-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1558227691-41ea78d1f631?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://alondra-park-slab-leak-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,18 +115,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Hydro jetting sewer line Alondra Park
-              <span className="block text-blue-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Hydro Jetting Pros</span>
+              Slab leak detection experts Alondra Park
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Alondra Park Slab Leak Pros</span>
             </>
           }
-          subtitle="Alondra Park's premier authority for industrial-strength sewer cleaning. We provide high-pressure hydro jetting, invasive root removal, and precision camera analytics. Professional Quality Mastercraft."
-          image="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1550985543-f47f547bda0f?auto=format&fit=crop&q=80"
-          badge="ALONDRA PARK HYDRO JETTING"
+          subtitle="Alondra Park's trusted authority for high-precision slab leak diagnostics. We provide advanced acoustic pinpointing, thermal imaging, and non-invasive foundation analytics. Professional Structural Quality."
+          image="https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
+          badge="ALONDRA PARK SLAB LEAK EXPERTS"
         />
         <Services />
         <WhyUs />
-        <AlondraParkHydroJettingInfo />
+        <AlondraParkSlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

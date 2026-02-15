@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "How long do cast iron pipes last in Westlake Village?",
-    answer: "Typically, cast iron lines in Westlake Village homes begin to show significant structural fatigue after 40-50 years. Soil moisture and scale buildup often lead to internal corrosion and eventual collapse if not addressed."
+    question: "How do you detect a slab leak without digging?",
+    answer: "We utilize non-invasive electronic technology including acoustic sensors and thermal imaging. These tools allow us to pinpoint the exact location of a leak through concrete with surgical precision, preventing unnecessary damage to your floors."
   },
   {
     question: "Will you provide a price before starting the work?",
     answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any work begins."
   },
   {
-    question: "Is trenchless replacement available in Westlake Village?",
-    answer: "Yes, we specialize in no-dig solutions. We can replace or rehabilitate your cast iron sewer lines using pipe bursting or CIPP lining, preserving your landscaping and property value."
+    question: "What are the common signs of a slab leak?",
+    answer: "Common indicators include hot spots on the floor, unusually high water bills, damp carpets, the sound of running water when all taps are off, and cracks in your foundation or walls. We recommend a professional diagnostic if you notice any of these."
   },
   {
     question: "How do I know if my water heater needs to be replaced?",
     answer: "If your unit is over 10 years old, shows signs of rust, makes rumbling noises, or isn't providing enough hot water, it's time for an inspection. We can help you decide if a repair or a more efficient tankless upgrade is best."
   },
   {
-    question: "What are the early signs of cast iron pipe failure?",
-    answer: "Common indicators include slow drains, recurring backups, foul odors in the yard, and unusually lush patches of grass over your sewer line. We recommend a high-definition camera scope for a definitive assessment."
+    question: "Does insurance cover slab leak detection?",
+    answer: "While coverage varies by policy, many homeowners' insurance providers cover the cost of professional leak detection when there is evidence of water damage. We provide detailed diagnostic reports to assist with your claim process."
   }
 ];
 

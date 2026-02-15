@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-indigo-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Westlake Village homeowners trust us for expert cast iron pipe diagnostics and trenchless replacement. We protect your property while restoring flow.
+            Alondra Park homeowners trust us for expert electronic slab leak diagnostics and foundation protection. We find the leak without the destruction.
           </p>
         </div>
 
