@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-blue-600">Plumbing Services</span>
+            Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Charlotte homeowners trust us for expert infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for the Queen City.
+            Tulsa homeowners trust us for expert infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for Green Country.
           </p>
         </div>
 
@@ -45,12 +45,12 @@ const Services = () => {
               className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300"
             >
               <a href={service.link}>
-                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors">
-                  <service.icon className="w-8 h-8 text-indigo-600 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+                  <service.icon className="w-8 h-8 text-emerald-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700">{service.title}</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
-                <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
+                <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
                   Learn More <ArrowRight className="w-4 h-4" />
                 </div>
               </a>

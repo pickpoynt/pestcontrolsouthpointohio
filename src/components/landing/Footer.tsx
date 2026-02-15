@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Charlotte & Mecklenburg County
+                    Tulsa & Green Country
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} CHARLOTTE PLUMBING PROS.
+            © {new Date().getFullYear()} TULSA PLUMBING PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,19 +101,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Charlotte Plumbing Pros",
+          "name": "Tulsa Plumbing Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Charlotte",
-            "addressRegion": "NC",
-            "postalCode": "28202",
+            "addressLocality": "Tulsa",
+            "addressRegion": "OK",
+            "postalCode": "74103",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "35.2271",
-            "longitude": "-80.8431"
+            "latitude": "36.1540",
+            "longitude": "-95.9928"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

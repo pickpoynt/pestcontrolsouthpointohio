@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Charlotte Trusts Our <span className="text-gold-400">Master Plumbers</span>
+            Why Tulsa Trusts Our <span className="text-gold-400">Master Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Mecklenburg infrastructure with technical precision. We specialize in precision plumbing restoration and rapid emergency repair for Charlotte homeowners.
+            Protecting Green Country infrastructure with technical precision. We specialize in precision plumbing restoration and rapid emergency repair for Tulsa homeowners.
           </p>
         </div>
 
