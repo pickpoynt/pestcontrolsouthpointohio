@@ -24,15 +24,15 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Unique Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt="Hero Background" className="w-full h-full object-cover brightness-[0.3]" />
-        <div className="absolute inset-0 opacity-30 mix-blend-overlay overflow-hidden">
+        <img src={image} alt="Hero Background" className="w-full h-full object-cover brightness-[0.5]" />
+        <div className="absolute inset-0 opacity-20 mix-blend-overlay overflow-hidden">
           <img
             src={overlayImage}
             alt="Atmospheric Overlay"
             className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[20000ms]"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-indigo-950 via-purple-950/60 to-indigo-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/20 to-slate-950/90" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
