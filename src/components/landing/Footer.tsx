@@ -11,13 +11,13 @@ const Footer = () => {
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Fairview</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">The Village</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Electronic Leak Pros</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Collin County's premier electronic leak specialists.
-              Providing non-invasive slab leak detection and precision repair in Fairview, TX.
+              The Village's premier electronic leak specialists.
+              Providing non-invasive leak detection and foundation repair throughout Oklahoma City Metro.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -36,9 +36,9 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
             <ul className="space-y-4">
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Electronic Leak Detection</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Leak Repair</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Leak Pinpointing</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Foundation Repair</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Acoustic Testing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pipe Rerouting</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Thermal Analysis</a></li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Our Address</p>
                   <p className="text-white font-bold">
-                    372 Town Pl, Fairview, TX 75069
+                    2304 W Britton Rd, The Village, OK 73120
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} ELECTRONIC SLAB LEAK PROS FAIRVIEW.
+            © {new Date().getFullYear()} ELECTRONIC LEAK DETECTION THE VILLAGE PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,20 +101,20 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Electronic Slab Leak Pros Fairview",
+          "name": "Electronic Leak Detection The Village Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "372 Town Pl",
-            "addressLocality": "Fairview",
-            "addressRegion": "TX",
-            "postalCode": "75069",
+            "streetAddress": "2304 W Britton Rd",
+            "addressLocality": "The Village",
+            "addressRegion": "OK",
+            "postalCode": "73120",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "33.1465",
-            "longitude": "-96.6186"
+            "latitude": "35.5709",
+            "longitude": "-97.5559"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

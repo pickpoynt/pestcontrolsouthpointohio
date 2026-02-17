@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FairviewLeakDetectionInfo from "@/components/landing/FairviewLeakDetectionInfo";
+import TheVillageLeakInfo from "@/components/landing/TheVillageLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Electronic slab leak detection Fairview TX</title>
-        <meta name="description" content="Electronic slab leak detection Fairview TX - Professional non-invasive foundation leak detection in Fairview, Texas. Using digital acoustic sensors & thermal imaging. Call (877) 792-1410." />
-        <meta name="keywords" content="Electronic slab leak detection Fairview TX, Fairview electronic leak detection, slab leak repair Fairview, Collin County leak specialists, plumbing leak Fairview" />
-        <link rel="canonical" href="https://electronic-slab-leak-detection-fairview.com/" />
+        <title>Electronic leak detection The Village OK</title>
+        <meta name="description" content="Electronic leak detection The Village OK - Professional non-invasive leak detection services in The Village, Oklahoma. Using digital acoustic technology and infrared. Call (877) 792-1410." />
+        <meta name="keywords" content="Electronic leak detection The Village OK, The Village Oklahoma leak detection, plumbing leak detection The Village, hidden leak pinpointing OKC Metro" />
+        <link rel="canonical" href="https://electronic-leak-detection-the-village.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Electronic Slab Leak Pros Fairview",
-            "image": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80",
+            "name": "Electronic Leak Detection The Village Pros",
+            "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "372 Town Pl",
-              "addressLocality": "Fairview",
-              "addressRegion": "TX",
-              "postalCode": "75069",
+              "streetAddress": "2304 W Britton Rd",
+              "addressLocality": "The Village",
+              "addressRegion": "OK",
+              "postalCode": "73120",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.1465",
-              "longitude": "-96.6186"
+              "latitude": "35.5709",
+              "longitude": "-97.5559"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Fairview, TX"
+              "name": "The Village, OK"
             },
             "priceRange": "$$$",
-            "description": "Specialized electronic slab leak detection and foundation plumbing repair services in Fairview, Texas. Advanced acoustic technology and thermal imaging."
+            "description": "Specialized electronic leak detection and pinpointing services in The Village, Oklahoma. Advanced acoustic technology and thermal imaging diagnostics."
           })}
         </script>
 
@@ -56,32 +56,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Electronic Slab Leak Detection",
+            "serviceType": "Electronic Leak Detection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Electronic Slab Leak Pros Fairview",
+              "name": "Electronic Leak Detection The Village Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Fairview, Texas"
+              "name": "The Village, Oklahoma"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Leak Detection Services Catalog",
+              "name": "The Village Leak Detection Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Digital Acoustic Leak Detection"
+                    "name": "Electronic Slab Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Slab Leak Repair"
+                    "name": "Water Leak Pinpointing"
                   }
                 },
                 {
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Electronic slab leak detection Fairview TX - Electronic Slab Leak Pros Fairview" />
-        <meta property="og:description" content="Professional electronic slab leak detection in Fairview, TX. Rapid, non-invasive technology to pinpoint foundation leaks." />
+        <meta property="og:title" content="Electronic leak detection The Village OK - Electronic Leak Detection The Village Pros" />
+        <meta property="og:description" content="Expert electronic leak detection in The Village, OK. Non-invasive technology to pinpoint hidden water leaks quickly." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://electronic-slab-leak-detection-fairview.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://electronic-leak-detection-the-village.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Electronic slab leak detection Fairview TX
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Electronic Slab Leak Pros Fairview</span>
+              Electronic leak detection The Village OK
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Electronic Leak Detection The Village Pros</span>
             </>
           }
-          subtitle="Precision electronic diagnostics for Fairview's foundation leaks. We use non-invasive technology to pinpoint and repair leaks with zero guesswork. Serving North Texas with pride."
-          image="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80"
-          badge="FAIRVIEW'S ELECTRONIC LEAK EXPERTS"
+          subtitle="The Village's authority in electronic leak pinpointing. We use cutting-edge technology to find hidden leaks under slabs, behind walls, and in foundations. Serving Oklahoma City Metro with zero destruction."
+          image="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1516216628859-9bccecad13fc?auto=format&fit=crop&q=80"
+          badge="THE VILLAGE LEAK SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <FairviewLeakDetectionInfo />
+        <TheVillageLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

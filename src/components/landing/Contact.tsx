@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                ELECTRONIC SLAB LEAK PROS FAIRVIEW
+                ELECTRONIC LEAK DETECTION THE VILLAGE PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">Fairview Service</span>
+                Schedule <span className="text-emerald-600">The Village Service</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Fairview estate from foundation leaks. Our electronic detection team provides non-invasive solutions throughout Collin County.
+                Protect your property in The Village from hidden water damage. Our electronic detection team provides non-invasive solutions throughout OKC Metro.
               </p>
 
               <div className="space-y-8">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Fairview & North Texas</p>
+                    <p className="text-xl font-bold text-slate-900">The Village & OKC Metro</p>
                   </div>
                 </div>
               </div>
