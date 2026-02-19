@@ -1,15 +1,6 @@
 import { Link } from "react-router-dom";
 
 const links = [
-  { text: "water softener repair burnsville mn", url: "/water-softener-repair-burnsville-mn", internal: true },
-  { text: "water softener repair columbia mo", url: "/water-softener-repair-columbia-mo", internal: true },
-  { text: "water softener repair chippewa falls", url: "/water-softener-repair-chippewa-falls", internal: true },
-  { text: "water softener repair freeport il", url: "/water-softener-repair-freeport-il", internal: true },
-  { text: "water softener repair henderson nv", url: "/water-softener-repair-henderson-nv", internal: true },
-  { text: "water softener repair jackson mi", url: "/water-softener-repair-jackson-mi", internal: true },
-  { text: "water softener repair lafayette indiana", url: "/water-softener-repair-lafayette-indiana", internal: true },
-  { text: "water softener repair logan utah", url: "/water-softener-repair-logan-utah", internal: true },
-  { text: "water softener repair maple grove mn", url: "/water-softener-repair-maple-grove-mn", internal: true },
   { text: "Dallas Plumbing Support", url: "https://dallasplumber.vercel.app", internal: false },
   { text: "San Antonio Plumbing Experts", url: "https://sanantonioplumbing.vercel.app", internal: false },
   { text: "San Francisco Plumbing Pros", url: "https://plumbersanfranciscoca.vercel.app/", internal: false },

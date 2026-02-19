@@ -114,7 +114,7 @@ const Index = () => {
             </>
           }
           subtitle="Anoka's leading experts in high-performance plumbing solutions. We protect your home from the confluence of the Rum and Mississippi Rivers with advanced drainage and piping systems. Quality plumbing for the Halloween Capital."
-          image="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80"
+          image="https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80"
           overlayImage="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
           badge="ANOKA COUNTY PLUMBING SPECIALISTS"
         />

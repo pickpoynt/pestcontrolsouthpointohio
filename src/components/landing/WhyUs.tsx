@@ -62,23 +62,30 @@ const WhyUs = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
+          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
                 src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
                 alt="Anoka Plumbing Professional"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all" />
+            </div>
 
-              <div className="absolute bottom-8 left-8 right-8 bg-slate-900/90 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
-                <p className="text-indigo-400 font-bold uppercase tracking-widest text-xs mb-3">Pipe Crashing?</p>
-                <h4 className="text-2xl font-bold text-white mb-4 uppercase tracking-tight leading-tight">Emergency Diagnostics</h4>
-                <div className="flex items-center gap-4">
-                  <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-12 px-6 rounded-xl uppercase tracking-widest text-xs" asChild>
-                    <a href="tel:8777921410">Call Anoka Team</a>
-                  </Button>
-                </div>
+            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
+              <img
+                src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
+                alt="Technical Diagnostic Work"
+                className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all" />
+
+              <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
+                <p className="text-indigo-400 font-bold uppercase tracking-widest text-[10px] mb-2">Pipe Crashing?</p>
+                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Emergency Diagnostics</h4>
+                <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
+                  <a href="tel:8777921410">Call Anoka Team</a>
+                </Button>
               </div>
             </div>
           </div>
