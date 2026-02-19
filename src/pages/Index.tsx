@@ -26,7 +26,7 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Lakewood Hydro Jetting Pros",
-            "image": "https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80",
+            "image": "https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80",
             "@id": "https://lakewood-hydrojetting.com/",
             "url": "https://lakewood-hydrojetting.com/",
             "telephone": "+18777921410",
@@ -109,7 +109,7 @@ const Index = () => {
         <meta property="og:description" content="professional hydro jetting lakewood wa - Master-grade sewer and drain cleaning in Lakewood, WA." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lakewood-hydrojetting.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -122,7 +122,7 @@ const Index = () => {
             </>
           }
           subtitle="Lakewood's elite high-pressure drainage specialists. We deploy master-grade 4000 PSI hydro jetting technology to restore sewer flow and eliminate root intrusion throughout Pierce County."
-          image="https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80"
+          image="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80"
           overlayImage="https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&q=80"
           badge="PIERCE COUNTY JETTING SPECIALISTS"
         />

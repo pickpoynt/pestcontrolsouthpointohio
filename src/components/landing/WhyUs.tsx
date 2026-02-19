@@ -55,7 +55,7 @@ const WhyUs = () => {
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group">
               <img
-                src="https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1504148455328-4362779fb452?auto=format&fit=crop&q=80"
                 alt="Lakewood Hydro Jetting Equipment"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />
@@ -64,7 +64,7 @@ const WhyUs = () => {
 
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
-                src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80"
                 alt="Professional Technician On Site"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />

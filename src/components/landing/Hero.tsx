@@ -29,44 +29,44 @@ const Hero = ({
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Technical Overlay */}
-      <div className="absolute inset-0 z-0 bg-slate-900">
-        <img src={image} alt="" className="w-full h-full object-cover brightness-[0.4] contrast-[1.1]" />
-        <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
+      <div className="absolute inset-0 z-0 bg-slate-900/90">
+        <img src={image} alt="" className="w-full h-full object-cover brightness-[0.7] contrast-[1.1]" />
+        <div className="absolute inset-0 opacity-[0.15] pointer-events-none">
           <img
             src={overlayImage}
             alt=""
-            className="w-full h-full object-cover mix-blend-screen grayscale"
+            className="w-full h-full object-cover mix-blend-screen scale-110"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/40" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 mb-8 animate-fade-in shadow-lg shadow-indigo-500/5 uppercase tracking-widest text-[10px] items-center font-bold">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-indigo-300 mb-8 animate-fade-in shadow-2xl uppercase tracking-widest text-[10px] font-bold">
             <Zap className="w-4 h-4 text-indigo-400" />
             <span>{badge}</span>
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 animate-fade-in leading-[1.1] uppercase tracking-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 animate-fade-in leading-[1.1] uppercase tracking-tight drop-shadow-2xl">
             {title}
           </h1>
 
-          <p className="text-xl text-slate-300 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-indigo-500 pl-6">
+          <p className="text-xl text-slate-200 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-indigo-500/80 pl-6 backdrop-blur-[2px]">
             {subtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-indigo-900/40 uppercase tracking-widest transition-all hover:scale-105" asChild>
+            <Button size="lg" className="bg-indigo-600/90 hover:bg-indigo-600 text-white border border-indigo-400/30 h-14 px-8 text-lg font-bold shadow-2xl shadow-indigo-900/40 uppercase tracking-widest transition-all hover:scale-105 backdrop-blur-sm" asChild>
               <a href={`tel:${phone}`} className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-indigo-400" />
+                <Phone className="w-5 h-5 text-indigo-200" />
                 {formattedPhone}
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-indigo-500/50 text-white hover:bg-indigo-600/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold" asChild>
+            <Button size="lg" variant="outline" className="bg-white/5 backdrop-blur-md border-white/20 text-white hover:bg-white/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold shadow-2xl" asChild>
               <a href="#contact" className="flex items-center gap-2">
                 Request Service
-                <ArrowRight className="w-5 h-5 text-indigo-500" />
+                <ArrowRight className="w-5 h-5 text-indigo-400" />
               </a>
             </Button>
           </div>
