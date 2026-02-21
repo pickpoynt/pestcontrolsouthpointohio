@@ -1,3 +1,26 @@
+const faqs = [
+  {
+    question: "Are earwigs dangerous to my family or home?",
+    answer: "Earwigs are not directly dangerous to humans, but large infestations indicate moisture problems and can cause significant damage to garden plants, seedlings, and indoor fabrics. Their pinchers can cause minor skin irritation. Our earwig exterminator denver team eliminates them before colonies grow."
+  },
+  {
+    question: "How quickly can you respond to an earwig infestation in Denver?",
+    answer: "We offer same-day service for active earwig infestations across Denver, CO and surrounding areas including Aurora, Lakewood, Thornton, and Arvada. Call (323) 880-1224 and we'll dispatch immediately."
+  },
+  {
+    question: "Why do I keep getting earwigs inside my Denver home?",
+    answer: "Denver's Front Range climate — with winter cold driving insects indoors — plus over-mulched garden beds, poor drainage, and foundation moisture create ideal earwig breeding zones. Our earwig exterminator denver specialists identify and treat all root causes, not just the visible bugs."
+  },
+  {
+    question: "What earwig treatments do you use and are they safe for pets and children?",
+    answer: "We use Colorado-approved, EPA-registered pest control products with targeted crack-and-crevice application. We offer pet-safe and family-friendly formulations. Our technicians always brief you on any precautions before treatment begins."
+  },
+  {
+    question: "Do you offer a guarantee on your earwig extermination services?",
+    answer: "Yes. We stand behind our work with a satisfaction guarantee. If earwigs return within the treatment period, we re-treat at no additional charge. Denver homeowners count on us for long-lasting results."
+  }
+];
+
 import {
   Accordion,
   AccordionContent,
@@ -5,36 +28,17 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const faqs = [
-  {
-    question: "Is raw sewage backup dangerous to my family?",
-    answer: "Yes — extremely. Raw sewage (Category 3 water) contains E. coli, Salmonella, Hepatitis A, Norovirus, and other harmful pathogens. Do not touch it without PPE. Our raw sewage backup removal Atherton CA team handles hazardous extraction safely."
-  },
-  {
-    question: "How quickly can you respond to a raw sewage emergency in Atherton?",
-    answer: "Our team is staged locally on the Peninsula and maintains a target response time of under 45 minutes for Atherton, Menlo Park, Woodside, and Portola Valley."
-  },
-  {
-    question: "What does IICRC S500 standard mean for my cleanup?",
-    answer: "The IICRC S500 standard is the global benchmark for water damage and sewage remediation. Following it guarantees scientific, documented, and legally defensible decontamination — critical for insurance claims and resale value in Atherton."
-  },
-  {
-    question: "Can you work discreetly without advertising the emergency?",
-    answer: "Absolutely. We fully respect the privacy of Atherton residents. We can operate with unmarked vehicles and during off-hours to ensure your situation remains completely private."
-  }
-];
-
 const FAQ = () => {
   return (
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Critical Intelligence</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Earwig Expert Answers</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Raw Sewage Removal <span className="text-indigo-600">FAQ</span>
+            Earwig Exterminator Denver <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for Atherton property owners facing a raw sewage backup emergency.
+            Key answers for Denver property owners dealing with earwig problems.
           </p>
         </div>
 

@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            ATHERTON RAW SEWAGE REMOVAL PROS
+            DENVER EARWIG EXTERMINATOR PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Deploy <span className="text-indigo-600">raw sewage backup removal Atherton CA</span>
+            Deploy <span className="text-indigo-600">earwig exterminator denver</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Atherton estate's health and value. Our biohazard elite team provides clinical-grade extraction and pathogen elimination across San Mateo County — day or night.
+            Protect your Denver home from earwig invasions. Our licensed pest control team provides same-day elimination, full perimeter barriers, and long-term prevention across Denver, CO.
           </p>
 
           <div className="space-y-8">
@@ -23,9 +23,9 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">BIOHAZARD EMERGENCY LINE</p>
-                <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors uppercase tracking-tight">
-                  (877) 792-1410
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">EARWIG CONTROL HOTLINE</p>
+                <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors uppercase tracking-tight">
+                  (323) 880-1224
                 </a>
               </div>
             </div>
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">IICRC CERTIFIED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">CA Licensed Biohazard Technicians</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">STATE LICENSED</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Colorado Licensed Pest Control Specialists</p>
               </div>
             </div>
 
@@ -46,8 +46,9 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Atherton Raw Sewage Removal Pros</p>
-                <p className="text-slate-500 font-medium text-sm">91 Ashfield Rd, Atherton, CA 94027</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Denver Earwig Exterminator Pros</p>
+                <p className="text-slate-500 font-medium text-sm">1600 Glenarm Pl, Denver, CO 80202</p>
+                <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>
 
@@ -65,7 +66,7 @@ const Contact = () => {
                   Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
                 </p>
                 <a
-                  href="mailto:bankonmanish@gmail.com?subject=Phone Replacement Inquiry - Atherton Raw Sewage"
+                  href="mailto:bankonmanish@gmail.com?subject=Phone Replacement Inquiry - Denver Earwig Exterminator"
                   className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
                 >
                   <Mail className="w-4 h-4" />
@@ -77,37 +78,37 @@ const Contact = () => {
         </div>
 
         <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Emergency Dispatch</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Inspection</h3>
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Name</label>
-                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Estate Owner / Manager" />
+                <input type="text" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Homeowner / Property Manager" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Phone</label>
-                <input type="tel" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="(877) 792-1410" />
+                <input type="tel" className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="(323) 880-1224" />
               </div>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Emergency Type</label>
+              <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                <option>Active Raw Sewage Backup (Emergency)</option>
-                <option>Biohazard Decontamination</option>
-                <option>Pathogen Testing & Clearance</option>
-                <option>HEPA Air Scrubbing</option>
-                <option>Odor Neutralization</option>
+                <option>Active Earwig Infestation (Emergency)</option>
+                <option>Perimeter Barrier Treatment</option>
+                <option>Indoor Earwig Elimination</option>
+                <option>Moisture Zone Control</option>
+                <option>Preventive Exclusion Treatment</option>
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Situation Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe the extent of the raw sewage event..."></textarea>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium" placeholder="Describe where you're seeing earwigs and how many..."></textarea>
             </div>
             <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
-              Launch Biohazard Response
+              Request Same-Day Service
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Sub-45 minute response for Atherton, Menlo Park & Woodside
+              *Same-day service available across Denver Metro, Aurora, Lakewood & Thornton
             </p>
           </form>
         </div>

@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import RawSewageRemovalAthertonInfo from "@/components/landing/RawSewageRemovalAthertonInfo";
+import EarwigExterminatorDenverInfo from "@/components/landing/EarwigExterminatorDenverInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>raw sewage backup removal Atherton CA - Atherton Raw Sewage Removal Pros</title>
-        <meta name="description" content="raw sewage backup removal Atherton CA - Professional raw sewage backup removal Atherton CA. Clinical-grade biohazard extraction and decontamination in San Mateo County. Call 877-792-1410 for 24/7 emergency response." />
-        <meta name="keywords" content="raw sewage backup removal Atherton CA, Atherton biohazard cleanup, sewage removal San Mateo County, Category 3 water removal CA" />
-        <link rel="canonical" href="https://rawsewageremovalatherton.com/" />
+        <title>earwig exterminator denver - Denver Earwig Exterminator Pros</title>
+        <meta name="description" content="earwig exterminator denver - Professional earwig exterminator denver. Licensed pest specialists deploy proven earwig elimination, barrier treatments, and full home protection across Denver, CO. Call (323) 880-1224 for 24/7 same-day service." />
+        <meta name="keywords" content="earwig exterminator denver, denver earwig removal, earwig control denver CO, pest control denver earwig" />
+        <link rel="canonical" href="https://earwigexterminatordenver.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Atherton Raw Sewage Removal Pros",
-            "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80",
-            "@id": "https://rawsewageremovalatherton.com/",
-            "url": "https://rawsewageremovalatherton.com/",
-            "telephone": "+18777921410",
+            "name": "Denver Earwig Exterminator Pros",
+            "image": "/1.jpeg",
+            "@id": "https://earwigexterminatordenver.com/",
+            "url": "https://earwigexterminatordenver.com/",
+            "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "91 Ashfield Rd",
-              "addressLocality": "Atherton",
-              "addressRegion": "CA",
-              "postalCode": "94027",
+              "streetAddress": "1600 Glenarm Pl",
+              "addressLocality": "Denver",
+              "addressRegion": "CO",
+              "postalCode": "80202",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "37.4613",
-              "longitude": "-122.1977"
+              "latitude": "39.7392",
+              "longitude": "-104.9903"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,32 +54,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Raw Sewage Backup Removal",
+            "serviceType": "Earwig Extermination",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Atherton Raw Sewage Removal Pros"
+              "name": "Denver Earwig Exterminator Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Atherton, CA"
+              "name": "Denver, CO"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Raw Sewage Removal Services",
+              "name": "Earwig Exterminator Denver Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raw Sewage Extraction" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Biohazard Decontamination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pathogen Elimination" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Earwig Inspection & Identification" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perimeter Barrier Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Earwig Elimination" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="raw sewage backup removal Atherton CA - Atherton Raw Sewage Removal Pros" />
-        <meta property="og:description" content="raw sewage backup removal Atherton CA - Clinical-grade biohazard sewage removal. Emergency response in Atherton and San Mateo County." />
+        <meta property="og:title" content="earwig exterminator denver - Denver Earwig Exterminator Pros" />
+        <meta property="og:description" content="earwig exterminator denver - Licensed Denver pest specialists. Same-day earwig elimination, perimeter treatments, and full home protection across Denver, CO." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rawsewageremovalatherton.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://earwigexterminatordenver.com/" />
+        <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
       <Header />
@@ -87,18 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              raw sewage backup <br />
-              <span className="text-white drop-shadow-sm uppercase">removal Atherton CA</span>
+              earwig exterminator <br />
+              <span className="text-white drop-shadow-sm uppercase">denver</span>
             </>
           }
-          subtitle="Atherton's top-rated biohazard elimination specialists. We deploy clinical-grade pathogen containment, industrial extraction, and forensic decontamination to make your estate safe again — fast."
-          image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80"
-          badge="ATHERTON BIOHAZARD ELITE"
+          subtitle="Denver's most trusted earwig elimination specialists. We deploy targeted perimeter barrier treatments, deep-crack injections, and moisture-zone exclusion to protect your home from earwig invasions — fast."
+          image="/1.jpeg"
+          overlayImage="/2.jpeg"
+          badge="DENVER EARWIG CONTROL ELITE"
+          phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <RawSewageRemovalAthertonInfo />
+        <EarwigExterminatorDenverInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
