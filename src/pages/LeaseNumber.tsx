@@ -9,7 +9,7 @@ const LeaseNumber = () => {
         <div className="min-h-screen bg-slate-50">
             <Helmet>
                 <title>Lease This Phone Number - South Point Pest Control Pros</title>
-                <meta name="description" content="Replace this pest control phone number with your own business line for only $19 a month. Contact bankonmanish@gmail.com to get started." />
+                <meta name="description" content="Replace this pest control phone number with your own business line for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -80,11 +80,11 @@ const LeaseNumber = () => {
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:bankonmanish@gmail.com?subject=Phone Lease Inquiry - Pest Control South Point Ohio - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Pest Control South Point Ohio - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />
-                                    bankonmanish@gmail.com
+                                    leasemynumber@gmail.com
                                 </a>
                                 <p className="text-center text-slate-400 text-xs italic font-medium">
                                     Subject line auto-filled. We respond within 24 hours.
@@ -96,8 +96,8 @@ const LeaseNumber = () => {
                     {/* Bottom CTA strip */}
                     <div className="bg-slate-900 rounded-2xl p-8 text-center text-white border border-indigo-500/20">
                         <p className="text-slate-400 text-sm font-medium mb-2">Questions? Email us directly</p>
-                        <a href="mailto:bankonmanish@gmail.com" className="text-2xl font-bold text-indigo-400 hover:text-indigo-300 transition-colors">
-                            bankonmanish@gmail.com
+                        <a href="mailto:leasemynumber@gmail.com" className="text-2xl font-bold text-indigo-400 hover:text-indigo-300 transition-colors">
+                            leasemynumber@gmail.com
                         </a>
                     </div>
 
